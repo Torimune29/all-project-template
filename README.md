@@ -1,5 +1,7 @@
 # project-template
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/58ce2ef04b5141fbbf4d0d4cec63bdf5)](https://app.codacy.com/gh/Torimune29/project-template?utm_source=github.com&utm_medium=referral&utm_content=Torimune29/project-template&utm_campaign=Badge_Grade_Settings)
+
 Project Template for any programming development environment
 
 ## Prerequisite

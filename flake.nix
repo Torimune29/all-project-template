@@ -39,6 +39,7 @@
         nativeBuildInputs = with pkgs; [
           tree
           commitizen
+          j2cli
         ];
       };
     });

@@ -1,8 +1,8 @@
-# project-template
+# {{ repository.name }}
 
 <!-- editorconfig-checker-disable -->
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Torimune29/project-template/CI?label=CI)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Torimune29/project-template/CD?label=CD)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Torimune29/{{ repository.name }}/CI?label=CI)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Torimune29/{{ repository.name }}/CD?label=CD)
 <!-- editorconfig-checker-enable -->
 
 Project Template for any programming development environment
@@ -40,7 +40,7 @@ git merge template/main --allow-unrelated-histories
 
 ```mermaid
 flowchart TB
-    repo(project-template)
+    repo({{ repository.name }})
     precommit(pre-commit-hooks.nix)
     commit(commitizen)
     lint(editorconfig-checker<br>markdonwlint-cli<br>etc...)

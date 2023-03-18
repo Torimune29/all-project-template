@@ -79,6 +79,14 @@ in
       description = ''        Update project-template using git.
                 It creates branch "template", and you can delete.'';
     })
+    (command {
+      name = "generate-pages";
+      script = ''
+        j2 -f yaml template/README.md.j2 template/data.yml > README.md
+        j2 -f yaml template/docs/index.html.j2 template/data.yml > docs/index.html
+      '';
+      description = ''test'';
+    })
     (pythonCommand {
       command = {
         name = "pythontest";

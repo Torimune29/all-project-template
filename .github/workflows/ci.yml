@@ -19,6 +19,9 @@ jobs:
       - name: generate custom command usage document
         run: |
           nix develop --command bash -c "generate-document > docs/.generated/custom-command-usage.md"
+      - name: generate page from template
+        run: |
+          nix develop --command bash -c "generate-pages"
       - name: nix pre-commit check
         run: |
           nix develop --command pre-commit run --all-files

@@ -65,6 +65,10 @@ flowchart TB
 `$ git ls-tree -r --name-only HEAD | tree --fromfile --noreport` as bash
 ```bash
 .
+├── .devcontainer
+│   ├── Dockerfile
+│   ├── devcontainer.json
+│   └── onCreateCommand.sh
 ├── .editorconfig
 ├── .envrc
 ├── .github
@@ -81,6 +85,10 @@ flowchart TB
 │   └── template.md
 ├── flake.lock
 ├── flake.nix
+├── template
+│   ├── data.yml
+│   └── docs
+│       └── index.html.j2
 └── tools
     ├── commands
     │   ├── default.nix

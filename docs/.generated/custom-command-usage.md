@@ -65,6 +65,18 @@ Update project-template using git.
 (No example.)
 ```
 
+## generate-pages
+
+### description
+
+test
+
+### example
+
+```bash
+(No example.)
+```
+
 ## pythontest
 
 ### description

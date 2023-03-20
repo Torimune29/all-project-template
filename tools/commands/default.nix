@@ -82,7 +82,6 @@ in
     (command {
       name = "generate-pages";
       script = ''
-        j2 -f yaml template/README.md.j2 template/data.yml > README.md
         j2 -f yaml template/docs/index.html.j2 template/data.yml > docs/index.html
       '';
       description = ''test'';
